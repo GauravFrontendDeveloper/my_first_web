@@ -7,7 +7,7 @@ const Navbar = () => {
             <header className="relative bg-white dark-after-absolute shadow-sm">
                 <div className="mx-auto lg:px-8 max-w-7xl py-2">
                     {/* mobile icons */}
-                    <div className="absolute inset-y-0 left-0 items-center sm:hidden">
+                    {/* <div className="absolute inset-y-0 left-0 items-center sm:hidden">
                         <button type="button" >
                             <span className="sr-only">Open main menu</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -15,7 +15,7 @@ const Navbar = () => {
                             </svg>
 
                         </button>
-                    </div>
+                    </div> */}
 
                     <div className="flex justify-between max-lg:px-4">
                         <div className="main-menu flex">

@@ -11,7 +11,7 @@ const WelcomeSection = () => {
 
     const [count, setCount] = useState(0);
     const [malaCount, SetMalaCount] = useState(0)
-    const maxValue = 8;
+    const maxValue = 108;
 
     // my code 
     // const additionHandle = () => {
