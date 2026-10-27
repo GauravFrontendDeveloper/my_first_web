@@ -13,6 +13,8 @@ const WelcomeSection = () => {
     const [malaCount, SetMalaCount] = useState(0)
     const maxValue = 108;
 
+    const totalCount = (malaCount * maxValue) + count
+
     // my code 
     // const additionHandle = () => {
     //     if (count < maxValue) {
@@ -71,13 +73,13 @@ const WelcomeSection = () => {
                         </div>
 
                         <div className="font-bold text-6xl text-center mx-auto text-[#6129c3] border-3 border-solid border-[#6129c3]-200 w-1/4 aspect-square rounded-full flex items-center justify-center shadow-xl">    
-                        <p className="text-4xl"> {count}</p>
+                        <p className="text-4xl">{count}</p>
                         </div>
 
 
                         <div className="rounded-lg border-1 border-solid border-[#f8f4ff]-20 w-20 flex-col justify-center items-center text-center bg-[#f8f4ff] py-1">
                             <p className="text-xs text-[#6129c3] font-semibold">Total</p>
-                            <p className="mb-0">{count}</p>
+                            <p className="mb-0">{totalCount}</p>
                         </div>
 
 
@@ -86,7 +88,7 @@ const WelcomeSection = () => {
                     <div className="">
                         <button onClick={additionHandle} className="cursor-pointer rounded-xl bg-linear-to-r from-indigo-500 to-blue-500 hover:bg-linear-to-l from-blue-500 to-indigo-800 text-white px-6 py-2 d-block w-full h-25 text-center uppercase font-bold transition duration-200 active:scale-95">
                             <span id="counterClick"><FaPrayingHands /></span>
-                            Click</button>
+                            Tap to Count</button>
 
                     </div>
 
